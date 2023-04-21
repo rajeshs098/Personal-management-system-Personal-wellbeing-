@@ -1,0 +1,166 @@
+/*import google fonts link ----*/
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap");
+
+/*---------- Global ---------*/
+html{
+    box-sizing: border-box;
+}
+
+:root {
+  --green-light: #7fff00;
+}
+
+
+/*------------    side-nav left-----------*/
+   .side-nav {
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  background: #222;
+  width: 0;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 1s;
+  padding-top: 70px;
+}
+.side-nav:hover {
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  background:#a78b85;
+  width: 0;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 1s;
+  padding-top: 70px;
+}
+/*------------    side nav join and my fit-club menu button-----------*/
+   .join-my_fit{
+ 
+  text-decoration:none;
+  margin: 0px 20px;
+  font-size:20px;
+ /*------------    side nav list items-----------*/ 
+}
+   .side-nav ul li {
+  line-height: 60px;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.1);
+}
+   .side-nav ul li a {
+  display: block;
+  color: #fff;
+  padding-left: 35px;
+  transition: 0.4;
+  font-size: 20px;
+  font-weight: 500;
+  width: 100%;
+  text-decoration: none;
+  border-left: 3px solid transparent;
+}
+
+   .side-nav ul li ul {
+display:none;
+  text-align: left;
+  padding-left:20px;
+}
+
+   .side-nav ul li:hover ul {
+  display:block;
+}
+   .side-nav ul li a:hover,
+   .join-my_fit{
+  color: var(--green-light);
+  background: #1e1e1e;
+  border-left-color: var(--green-light);
+}
+   .side-nav .nav-list ul {
+  display: none;
+}
+   .side-nav .nav-list ul li a {
+  padding-left: 70px;
+}
+/*------------ Header side-nav close button -----------*/
+
+header .side-nav .close-btn {
+  position: absolute;
+  top: 41px;
+  left: 140px;
+  font-size: 38px;
+  margin-left: 50px;
+  color: #fff;
+}
+
+header .side-nav .close-btn span {
+  height: 4px;
+  margin-bottom: 8px;
+  display: block;
+  background-color: #fff;
+  width: 40px;
+}
+
+header .side-nav .close-btn .close-btn_1 {
+  transform: rotate(-45deg) translateX(-9px) translateY(9px);
+}
+
+header .side-nav .close-btn .close-btn_2 {
+  transform: rotate(45deg);
+}
+/*------------ Header main menu, logo and open side nav button  -----------*/
+header #main {
+  display: flex;
+}
+/*-----    Header loge  -----*/
+header #main .logo {
+  position: relative;
+  bottom: 0px;
+  left: 60px;
+}
+header #main .logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: 600;
+}
+header .logo span {
+  color: var(--green-light);
+}
+
+/*-----    Header open side nav button  ------*/
+
+header #main .open-btn {
+  position: relative;
+  bottom: -16px;
+  left: -120px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 0;
+}
+
+header #main .open-btn span {
+  height: 4px;
+  margin-bottom: 11px;
+  background-color: #fff;
+  width: 40px;
+  display: block;
+}
+
+/*-------   Header search and join, my-fit-club button  ------------*/
+header .main-nav_item {
+  position: fixed;
+  top: 38px;
+  right: 20px;
+}
+
+/*------- Header menu button-------*/
+header .main-nav_item a {
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 0px 20px;
+}
+header .main-nav_item a:hover {
+  color: var(--green-light);
+}
