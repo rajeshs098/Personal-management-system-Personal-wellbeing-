@@ -1,0 +1,34 @@
+form {
+  width: 50%;
+  background-color:rgb(28, 147, 151);
+  margin: 130px auto;
+  padding: 100px;
+  border: 6px solid rgb(12, 9, 9);
+}
+input {
+  width: 50%;
+  border: px solid #97c03e;
+  display: block;
+  padding: 10px 0px;
+  
+}
+button {
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+table {
+
+  width: 60%;
+  border-collapse: collapse;
+  margin: 70px auto;
+}
+th,
+td {
+    
+    padding: 10px;
+    width: 160px;
+  height: 70px;
+  vertical-align: center;
+  border: 2px solid black;
+}
