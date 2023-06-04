@@ -32,7 +32,7 @@
         <div class="container">
             <div class="navbar-brand">
                 
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-info display-2" href="https://mobiri.se/">PERSONL WELLBEING</a></span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-info display-2" href="">PERSONL WELLBEING</a></span>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <div class="hamburger">
