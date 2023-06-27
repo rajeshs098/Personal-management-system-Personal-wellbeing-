@@ -1,5 +1,5 @@
 # Personal-management-system-Personal-wellbeing-
-To run the project="" Extract the file name other inside 'hddoc ' of xampp and intsert the SQL file in database and run""
+To run the project="" Extract the file named " other" inside 'hddoc ' of xampp and intsert the SQL file in database and run""
 
 The personal maintenance system I have developed is focused on daily upkeep tasks, including adding required documents, pictures, notes, work time, and gym activities. It has been built using MySQL for the database management and HTML and CSS for the front-end interface.
 
